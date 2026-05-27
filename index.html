@@ -189,6 +189,116 @@
             .lang-btn { padding: 6px 12px; font-size: 12px; }
             section { background-attachment: scroll; } /* Disable parallax on mobile for performance */
         }
+        /* EXTRA RESPONSIVE FIXES */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero {
+        padding: 0 20px;
+        background-position: center center;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 1.1;
+    }
+
+    .hero-ampersand {
+        font-size: 70px;
+        margin: 10px 0;
+    }
+
+    .hero-date {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .section-subtitle {
+        font-size: 28px;
+    }
+
+    .story-text {
+        font-size: 20px;
+        line-height: 1.8;
+        padding: 0 10px;
+    }
+
+    .event-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rsvp-form {
+        padding: 30px 20px;
+    }
+
+    .church-section h2 {
+        font-size: 32px;
+    }
+
+    .church-section p {
+        font-size: 18px;
+    }
+
+    .final-cta {
+        font-size: 38px;
+    }
+
+    .music-player {
+        right: 15px;
+        bottom: 15px;
+        padding: 10px 15px;
+    }
+
+    .music-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .lang-switcher {
+        top: 12px;
+        right: 12px;
+        transform: scale(0.9);
+    }
+}
+
+/* SMALL PHONE FIX */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-ampersand {
+        font-size: 55px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .story-text {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 24px;
+    }
+}
     </style>
 </head>
 <body>
